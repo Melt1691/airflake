@@ -1,11 +1,10 @@
 # Astro Runtime includes the following pre-installed providers packages: https://www.astronomer.io/docs/astro/runtime-image-architecture#provider-packages
 
-apache-airflow-providers-amazon==7.6.0          #  AWS S3 support
+apache-airflow-providers-amazon==7.4.1          #  AWS S3 support
 apache-airflow-providers-databricks==4.6.0      #  Databricks integration
-apache-airflow-providers-snowflake==4.6.1       #  Snowflake integration
+apache-airflow-providers-snowflake==4.4.2       #  Snowflake integration
 apache-airflow-providers-http==4.5.0            #  API requests support
-apache-airflow-providers-common-sql==1.4.1      #  Common SQL functionalities
-snowflake-connector-python==3.6.0               #  Snowflake DB connection
+apache-airflow-providers-common-sql==1.26.0      #  Common SQL functionalities
 pandas==2.1.1                                   #  Data processing
 boto3==1.28.69                                  #  AWS SDK for python
 pyarrow==14.0.0                                 #  Parquet support for Snowflake
