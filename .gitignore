@@ -7,3 +7,5 @@ logs/
 tmp/
 .docker/
 data/raw/
+backup_Dockerfile
+.gitignore
